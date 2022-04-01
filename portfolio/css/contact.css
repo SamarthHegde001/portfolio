@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(10, 25, 47);
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: 5rem;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: rgb(204, 214, 246);
+}
+
+.nav-links:hover {
+  color: rgb(90, 230, 199);
+  transition: all 1s;
+}
+
+.nav-ele {
+  margin: 2.5rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(90, 230, 199);
+  margin: 25px;
+}
+
+.desc {
+  text-align: center;
+  color: rgb(204, 214, 246);
+  text-justify: ;
+}
+
+.hlo-btn {
+  text-decoration: none;
+  color: rgb(90, 230, 199);
+  padding: 15px 30px 15px 30px;
+  width: 200px;
+  border: 1px solid rgb(90, 230, 199);
+}

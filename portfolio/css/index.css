@@ -1,0 +1,104 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(10, 25, 47);
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: 5rem;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: rgb(204, 214, 246);
+}
+
+.nav-links:hover {
+  color: rgb(90, 230, 199);
+  transition: all 1s;
+}
+
+.nav-ele {
+  margin: 2.5rem;
+}
+
+.about {
+  width: 70%;
+  margin: auto;
+}
+
+.headings {
+  font-size: 1.5rem;
+  color: rgb(90, 230, 199);
+}
+.main-head {
+  font-size: 4.2rem;
+  color: rgb(204, 214, 246);
+}
+
+.side-head {
+  font-size: 3rem;
+  color: rgb(136, 146, 176);
+}
+
+.desc {
+  color: rgb(136, 146, 176);
+  font-size: 1.2rem;
+}
+
+.main-desc {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.desgn {
+  margin: 10px 0px 10px 0px;
+}
+
+.abt-link {
+  color: rgb(90, 230, 199);
+  text-decoration: none;
+}
+.abt-link:hover {
+  color: rgb(204, 214, 246);
+  transition: all 500ms;
+}
+
+.btn {
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(90, 230, 199);
+  border: 2px solid rgb(90, 230, 199);
+  padding: 10px 40px 10px 40px;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+.btn:hover {
+  background-color: rgb(17, 43, 60);
+  transition: all 300ms;
+}
+
+.hide {
+  display: none;
+}
+
+.int-sec {
+  margin-bottom: 50px;
+}
+
+.i-h {
+  margin-left: 20px;
+}
+
+#collapse {
+  cursor: pointer;
+  color: rgb(90, 230, 199);
+  margin-left: 20px;
+  text-decoration: underline;
+}

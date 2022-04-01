@@ -1,0 +1,54 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(10, 25, 47);
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: 5rem;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: rgb(204, 214, 246);
+}
+
+.nav-links:hover {
+  color: rgb(90, 230, 199);
+  transition: all 1s;
+}
+
+.nav-ele {
+  margin: 2.5rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(90, 230, 199);
+  margin: 50px;
+}
+
+.project {
+  width: fit-content;
+  margin: 30px;
+}
+.project-link {
+  color: rgb(204, 214, 246);
+  text-decoration: none;
+}
+.project-name {
+  text-align: center;
+}
+
+iframe {
+  border: 3px solid white;
+}
+
+.projects {
+  display: flex;
+}
